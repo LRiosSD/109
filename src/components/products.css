@@ -1,0 +1,16 @@
+
+.product{
+    display: inline-block;
+    width: 270px;
+    height: 450px;
+    border:1px solid green;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.product img{
+    width: 250px;
+    height: 250px;
+}
