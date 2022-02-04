@@ -23,6 +23,8 @@ const Product=(props)=>{
 
 export default Product;
 
+// simple change
+
 // need the product jsx you need to render:
 // add image
 // add title
