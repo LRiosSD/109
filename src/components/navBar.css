@@ -1,5 +1,10 @@
 
+
 h1{
-    color: blue;
+    color: rgb(163, 43, 43);
     text-align: center;
+}
+.navBar{
+    height: 40px;
+    background-color: black;
 }

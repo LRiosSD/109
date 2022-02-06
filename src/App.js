@@ -1,18 +1,24 @@
 
-import Footer from './components/footer';
 import NavBar from './components/navBar';
-import Catalog from './components/catalog';
+import About from './components/about';
+
+
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import Catalog from './components/catalog';
 
 
 function App(){
   return(
     <div className='App'>
       <NavBar></NavBar>
+      
+      <About/>
+
       <h1>
         Welcome to SQS Style
       </h1>
+      
       <Catalog/>
 
       <Footer/>

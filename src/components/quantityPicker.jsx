@@ -3,19 +3,22 @@ import "./quantityPicker.css"
 
 
 
-const QuantityPicker=()=>{
+const QuantityPicker= (props)=>{
+    
     let[quanity,setQuantity]=useState(1);
 
     const handleIncrease=()=>{
         console.log("Plus clicked!")
         let value = quanity +1;
-        setQuantity(quanity+1);
+        setQuantity(value);
+        props.onChange(value); //callls function from parent
 
     };
     const handleDecrease=()=>{
         let value = quanity -1;
         if (value >0){
             setQuantity(value);
+            props.onChange(value);
         }
 
         setQuantity(value);
