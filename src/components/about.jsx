@@ -1,5 +1,5 @@
 
-import "./App.css";
+import "./about.css";
 
 import { useState } from "react";
 
@@ -27,7 +27,6 @@ const About = ()=>{
             );
         }
             else return "";
-        }
     }
 
 // create function here

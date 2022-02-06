@@ -1,7 +1,7 @@
 
 import NavBar from './components/navBar';
 import About from './components/about';
-
+import Footer from './components/footer';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
@@ -18,7 +18,7 @@ function App(){
       <h1>
         Welcome to SQS Style
       </h1>
-      
+
       <Catalog/>
 
       <Footer/>
