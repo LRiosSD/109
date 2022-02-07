@@ -5,6 +5,7 @@ h1{
     text-align: center;
 }
 .navBar{
-    height: 40px;
-    background-color: black;
+    height: 75px;
+    background-color: lightgreen;
+    color: black;
 }

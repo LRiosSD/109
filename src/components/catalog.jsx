@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import Product from "./products";
+import "./catalog.css"
 import DataService from "../services/dataService";
 
 const Catalog =()=>{
@@ -26,8 +27,8 @@ const Catalog =()=>{
 
     return(
         <div className="catalog">
-            <h3> Our Amazing Product Line</h3>
-            <h5>There are {products.length} products</h5>
+            <h3> Check Out Our Amazing Product Line!</h3>
+            <h5>There are {products.length} products available</h5>
             {console.log("component rendered")}
             
             {products.map((p) =>(

@@ -26,9 +26,9 @@ const QuantityPicker= (props)=>{
 
     return (
          <div className="quantity-picker">
-            <button className="btn btn-sm btn-info" onClick={handleIncrease}>+</button>
+            <button className="btn btn-sm btn-info" className="btn-increase" onClick={handleIncrease}>+</button>
             <label>{quanity}</label>
-            <button className="btn btn-sm btn-info" disabled={quanity===1} onClick={handleDecrease}>-</button>
+            <button className="btn btn-sm btn-info" className="btn-decrease" disabled={quanity===1} onClick={handleDecrease}>-</button>
          </div>
     );
 };

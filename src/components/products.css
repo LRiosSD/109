@@ -2,15 +2,28 @@
 .product{
     display: inline-block;
     width: 270px;
-    height: 450px;
+    height: 400px;
     border:1px solid green;
     border-radius: 2px;
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+    background-color: aquamarine;
+    color: black;
     
 }
 .product img{
-    width: 250px;
-    height: 250px;
+    width: 15rem;
+    height: 15rem;
+}
+.total{
+    color:black;
+    font-weight: 600;
+}
+.btn{
+    color: white;
+    background-color: black;
+}
+h5{
+    text-align: center;
 }

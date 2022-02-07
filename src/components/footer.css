@@ -1,9 +1,11 @@
-.footer{
+.Footer{
     background-color: cadetblue;
+    text-align: center;
 }
-footer h5{
+.Footer h5{
     color: darkblue;
 }
-.footer h6{
+.Footer h6{
     color: darkolivegreen;
+    font-size: 1.1rem;
 }

@@ -1,7 +1,9 @@
 
 .quantity-picker{
-    border: 1px solid  coral;
+    border: 1px solid  olivedrab;
     border-radius: 2px;
+    background-color: skyblue;
+
 }
 
 .quantity-picker button{
@@ -11,4 +13,10 @@
 .quantity-picker label{
     font-weight: bold;
     columns: grey;
+}
+.btn-increase{
+    background-color: rgb(139, 180, 139);
+}
+.btn-decrease{
+    background-color: rgb(243, 164, 164);
 }
