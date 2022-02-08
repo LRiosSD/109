@@ -3,13 +3,14 @@ import "./about.css";
 
 import { useState } from "react";
 
-const About = ()=>{
+const About = () => {
 
-    const [name, setName]=useState("");
+    const [name, setName ]= useState("");
     const [visible, setVisible] = useState(false);
     
-    const handleShowName=()=>{
+    const handleShowName = () => {
         setName("Leonardo Rios");
+        setVisible(true);
     }
     const getMyInfo=()=>{
         if (visible){
@@ -18,9 +19,9 @@ const About = ()=>{
                 <h1>Leonardo Rios</h1>
                 <h6>leo78rios@gmail.com</h6>
                 <ul>
-                    <li>A</li>
-                    <li>B</li>
-                    <li>C</li>
+                    <li>SDGKE FSDI</li>
+                    <li>Student</li>
+                    <li>2022</li>
                 </ul>
             </div>
 

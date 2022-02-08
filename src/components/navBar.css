@@ -1,8 +1,9 @@
 
 
-h1{
+.h1{
     color: rgb(163, 43, 43);
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navBar{
     height: 75px;

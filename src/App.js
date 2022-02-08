@@ -1,7 +1,10 @@
 
+import "./App.css"
+import Footer from './components/footer';
 import NavBar from './components/navBar';
 import About from './components/about';
-import Footer from './components/footer';
+import Todo from './components/todo';
+
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
@@ -12,15 +15,15 @@ function App(){
   return(
     <div className='App'>
       <NavBar></NavBar>
-      
-      <About/>
+
 
       <h1>
-        Welcome to SQS Style
+        SQS Style Talavera Imports
       </h1>
-
+      <Todo/>
       <Catalog/>
 
+      <About/>
       <Footer/>
       
     </div>

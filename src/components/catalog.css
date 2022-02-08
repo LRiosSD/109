@@ -1,6 +1,7 @@
 .catalog{
     background-color: rgb(162, 97, 223);
     color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .catalog h3{
     text-align: center;

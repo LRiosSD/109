@@ -2,18 +2,18 @@
 import "./todo.css";
 import { useState } from 'react';
 
-const Todo=()=>{
-
-    const[text, setText]=useState("");
-    const [list,setList]=useState("");
+const Todo = () => {
+    const [text, setText] = useState("");
+    const [list, setList] = useState([]);
+    
     
     const handleAdd=()=>{
-        let allTodos=[...list];
+        let allTodos = [...list];
         allTodos.push(text);
         setList(allTodos);
     };
 
-    const handelText=(e)=>{
+    const handleText = (e) => {
         setText(e.target.value);
     };
 
@@ -25,8 +25,8 @@ const Todo=()=>{
             <button onClick={handleAdd} className="btn btn-sm btn-primary">Add</button>
 
             <div className="todo-list">
-            {list.map((todo) => (
-            <h6 key={todo}>{todo}</h6>
+                {list.map((todo) => (
+                <h6 key={todo}>{todo}</h6>
             ))}
             </div>
         </div>

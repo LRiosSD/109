@@ -3,11 +3,11 @@
     border: 1px solid  olivedrab;
     border-radius: 2px;
     background-color: skyblue;
-
+    text-align: center;
 }
 
 .quantity-picker button{
-    margin: 0 5px;
+    margin: 1px;
 }
 
 .quantity-picker label{

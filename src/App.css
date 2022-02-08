@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.App h1{
+  color: rgb(196, 26, 26);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
