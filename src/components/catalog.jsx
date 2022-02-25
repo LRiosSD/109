@@ -32,7 +32,7 @@ const Catalog =()=>{
             {console.log("component rendered")}
             
             {products.map((p) =>(
-            <Product key={p.id} data={p}/>
+            <Product key={p._id} data={p}/>
             ))}
             
         </div>

@@ -18,7 +18,7 @@ const Todo = () => {
     };
 
     return (
-        <div classNam="todo-page">
+        <div className="todo-page">
             <h4>My Shopping List</h4>
 
             <input onChange={handleText} type="text" />
