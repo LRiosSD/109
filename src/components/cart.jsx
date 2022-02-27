@@ -1,21 +1,19 @@
 import { useContext } from "react";
 import storeContext from "../store/storeContext";
+import CartItem from "./cartItem";
 import "./cart.css"
-
 
 const Cart = () =>{
     const {cart} = useContext(storeContext);
 
     return(
         <div className="cart">
-            <h1>Shopping Cart: {cart.length} Products</h1>
+            <h1>Shopping Cart {cart.length} products</h1>
 
             <div className="products">
-                <ul>
-                    {cart.map(prod=> <li key={prod._id}> {prod.title}</li>)}
-                </ul>
-
+                {cart.map( (prod, index)  =><CartItem key={index} data={prod}></CartItem>)}
             </div>
+
         </div>
     );
 };

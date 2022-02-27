@@ -1,0 +1,25 @@
+
+.cart-item{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+
+}
+
+.cart-item img{
+    flex: 2;
+}
+
+.cart-item .info{
+    flex: 5;
+}
+
+.cart-item .price,
+.cart-item quantity{
+    flex: 2;
+}
+
+.cart-item button{
+    flex: 1;
+}
