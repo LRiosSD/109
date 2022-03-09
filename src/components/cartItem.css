@@ -4,11 +4,12 @@
     border: 1px solid black;
     padding: 10px 15px;
     margin-bottom: 12px;
+    height: 200px;
 
 }
 
 .cart-item img{
-    flex: 2;
+    flex: 1;
 }
 
 .cart-item .info{

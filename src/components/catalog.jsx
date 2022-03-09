@@ -3,24 +3,25 @@ import { useEffect, useState } from "react";
 import Product from "./products";
 import "./catalog.css"
 import DataService from "../services/dataService";
+import Todo from "./todo";
 
 const Catalog =()=>{
 
     const [products, setProducts] = useState([]);
     
     // here
-    const loadData=()=>{
+    const loadData= async ()=>{
         console.log("component loaded");
 
         let service = new DataService();
-        let data = service.getCatalog();
+        let data = await service.getCatalog();
         setProducts(data);
     };
 
     // when the component loads
-    useEffect(()=>{
+    useEffect((()=>{
         loadData();
-    });
+    }),[]);
 
 // create a state variable (products)
 //  set data (from loadData) to the state variable
@@ -34,7 +35,8 @@ const Catalog =()=>{
             {products.map((p) =>(
             <Product key={p._id} data={p}/>
             ))}
-            
+
+            <Todo></Todo>
         </div>
     );
 };
